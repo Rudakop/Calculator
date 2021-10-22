@@ -1,0 +1,48 @@
+.result {
+  height: 60px;
+  background-color: rgb(29, 190, 64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.result p {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.calculator-body {
+  max-width: 250px;
+  max-height: 500px;
+  margin: auto;
+}
+
+button {
+  width: 25%;
+  height: 40px;
+  font-size: 20px;
+  display: 'block';
+}
+
+.num-button {
+  background-color: #fdfa22;
+}
+
+.oper-button {
+  background-color: #ec519e;
+}
+
+.equal-button{
+  background-color: rgb(29, 190, 64);
+}
+
+.clear-button {
+  width: 100%;
+  background-color: #35a9e4;
+}
+
+.prime-button {
+  width: 100%;
+  background-color: #ec519e;
+}

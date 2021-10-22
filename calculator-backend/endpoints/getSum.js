@@ -4,7 +4,7 @@ const handler = function (req, reply) {
     const { action, numbers } = req.body
 
     if (!Array.isArray(numbers)) {
-        return reply.code(400).send()  //BadRequest
+        return reply.code(400).send()  
     }
 
     const sum = numbers.reduce((acc, value) => {
